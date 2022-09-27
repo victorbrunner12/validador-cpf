@@ -62,3 +62,6 @@ class ValidadorCPF():
 
         except Exception as ex:
             print("Exception", ex)
+            
+if __name__=='__main__':
+    ValidadorCPF().validador()
